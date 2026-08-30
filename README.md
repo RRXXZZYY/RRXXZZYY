@@ -10,6 +10,14 @@
 
 I like software that explains itself: deterministic cores, inspectable evidence, useful failure messages, and honest performance boundaries. My open-source work focuses on the infrastructure around AI agents—not another chat wrapper.
 
+## Featured: QuantSieve
+
+[![QuantSieve — pretty charts are not proof](https://raw.githubusercontent.com/RRXXZZYY/QuantSieve/main/docs/assets/social-preview.png)](https://github.com/RRXXZZYY/QuantSieve)
+
+**Pretty charts are not proof.** [QuantSieve](https://github.com/RRXXZZYY/QuantSieve) is a self-hosted quantitative research workspace that keeps results traceable to data, timing, assumptions, costs, and execution semantics—and fails closed when evidence is insufficient.
+
+[Explore the repository](https://github.com/RRXXZZYY/QuantSieve) · [Watch the 55-second product tour](https://github.com/RRXXZZYY/QuantSieve/releases/tag/v0.1.1)
+
 ## Selected open-source projects
 
 | Project | What it does | Engineering focus |
