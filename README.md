@@ -2,38 +2,36 @@
 
 # ZhongYu Li
 
-### Building trustworthy AI systems, quantitative research infrastructure, and developer tools.
+### I build trustworthy AI infrastructure, developer tools, and quantitative systems.
 
-`AI Infrastructure` · `Backend Systems` · `Quantitative Engineering`
+`AI Infrastructure` · `Developer Experience` · `Data Systems` · `Quantitative Engineering`
 
 </div>
 
-I build systems that turn complex ideas into software people can inspect, reproduce, and trust. My current work sits at the intersection of AI engineering, quantitative research, and production-grade developer experience.
+I like software that explains itself: deterministic cores, inspectable evidence, useful failure messages, and honest performance boundaries. My open-source work focuses on the infrastructure around AI agents—not another chat wrapper.
 
-## What I am building
+## Selected open-source projects
 
-**AlphaPilot** is an auditable quantitative research and paper-trading platform. It brings the research loop into one system: market data, strategy development, backtesting, risk controls, order management, and explainable results.
+| Project | What it does | Engineering focus |
+| --- | --- | --- |
+| **[SpanLint](https://github.com/RRXXZZYY/spanlint)** | Lints OpenTelemetry GenAI and MCP traces with 21 deterministic rules and visual diagnostics. | Observability, policy engines, SARIF/JUnit, CI |
+| **[AgentWhy](https://github.com/RRXXZZYY/agentwhy)** | Explains which coding-agent instructions apply, why they win, and where they conflict. | Developer tooling, provenance, static analysis |
+| **[TraceVCR](https://github.com/RRXXZZYY/tracevcr)** | Records, redacts, replays, and visually diffs agent tool calls without model or API access. | Agent testing, reproducibility, typed diagnostics |
+| **[BatchLab](https://github.com/RRXXZZYY/batchlab)** | Simulates static batching, continuous admission, KV budgets, TTFT, and tail latency. | Inference systems, discrete-event simulation |
+| **[SchemaBlast](https://github.com/RRXXZZYY/schemablast)** | Finds data-contract breaks and traces their field-aware lineage blast radius to owners. | Data infrastructure, graph traversal, contract CI |
+| **[QuantSieve](https://github.com/RRXXZZYY/QuantSieve)** | Runs evidence-first quantitative research with reproducible backtests, factor diagnostics, and paper simulation. | Python/FastAPI, Next.js, research engineering |
 
-- Reproducible strategy research and backtesting
-- Paper trading with portfolio, order, and risk workflows
-- Provider-aware data pipelines with explicit provenance
-- A typed full-stack interface for exploring results and decisions
+Each focused developer tool includes runnable examples, deterministic tests, cross-platform CI, CodeQL scanning, machine-readable output, a GitHub Action, and a tagged release. Simulation results are labeled as simulations; project pages do not claim fabricated users, stars, or hardware benchmarks.
 
-## How I work
+## What these projects demonstrate
 
-- **Evidence over hype** — measurable behavior, clear assumptions, and reproducible results
-- **Systems over demos** — complete workflows with failure handling and operational boundaries
-- **Readable by default** — strong contracts, focused documentation, and intentional interfaces
-- **Safety built in** — auditability, risk controls, and secure defaults from the beginning
+- **Reliable AI systems:** trace contracts, replayable tool calls, agent-instruction provenance, and failure-first diagnostics.
+- **Systems thinking:** scheduling, resource budgets, tail latency, graph reachability, compatibility rules, and stable identifiers.
+- **Production-minded delivery:** focused CLIs, visual reports, CI integrations, security scanning, documentation, and reproducible releases.
+- **Evidence over hype:** explicit assumptions, fail-closed boundaries, and claims that can be reproduced from the repository.
 
 ## Toolbox
 
-`Python` · `FastAPI` · `TypeScript` · `Next.js` · `PostgreSQL` · `Docker` · `GitHub Actions`
+`TypeScript` · `Node.js` · `Python` · `FastAPI` · `Next.js` · `PostgreSQL` · `Docker` · `OpenTelemetry` · `GitHub Actions`
 
-## Current focus
-
-- Preparing AlphaPilot for a clean open-source release
-- Building reliable AI-assisted research workflows
-- Deepening distributed systems, databases, and production engineering fundamentals
-
-I am open to opportunities in AI infrastructure, backend systems, and quantitative engineering.
+I am open to roles in AI infrastructure, developer experience, backend/data systems, inference engineering, and quantitative research engineering.
