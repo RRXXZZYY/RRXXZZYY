@@ -8,15 +8,9 @@
 
 </div>
 
-I like software that explains itself: deterministic cores, inspectable evidence, useful failure messages, and honest performance boundaries. My open-source work focuses on the infrastructure around AI agents—not another chat wrapper.
+I work at the boundary between AI infrastructure, backend and data systems, developer experience, and quantitative engineering. I care about the parts that make software trustworthy in practice: deterministic behavior, explicit contracts, inspectable evidence, useful failure messages, and honest performance boundaries.
 
-## Featured: QuantSieve
-
-[![QuantSieve — pretty charts are not proof](https://raw.githubusercontent.com/RRXXZZYY/QuantSieve/main/docs/assets/social-preview.png)](https://github.com/RRXXZZYY/QuantSieve)
-
-**Pretty charts are not proof.** [QuantSieve](https://github.com/RRXXZZYY/QuantSieve) is a self-hosted quantitative research workspace that keeps results traceable to data, timing, assumptions, costs, and execution semantics—and fails closed when evidence is insufficient.
-
-[Explore the repository](https://github.com/RRXXZZYY/QuantSieve) · [Watch the 55-second product tour](https://github.com/RRXXZZYY/QuantSieve/releases/tag/v0.1.1)
+My open-source work focuses on the infrastructure around AI agents—not another chat wrapper. I prefer narrow changes with a reproducible failure, focused regression coverage, and a result that another engineer can independently verify.
 
 ## Merged upstream contributions
 
@@ -29,7 +23,24 @@ Verifiable fixes accepted by maintainers of public upstream projects. Each entry
 
 [View all authored pull requests](https://github.com/search?q=is%3Apr+author%3ARRXXZZYY&type=pullrequests)
 
-## Selected open-source projects
+## Engineering focus
+
+- **AI infrastructure and agents:** traceability, provider normalization, reliable tool boundaries, and reproducible agent workflows.
+- **Backend and data systems:** explicit contracts, compatibility, failure isolation, and tests that preserve production behavior.
+- **Quantitative engineering:** evidence-first research, declared assumptions, realistic execution semantics, and clear simulation boundaries.
+- **Delivery discipline:** focused pull requests, cross-platform CI, security scanning, and verification claims that match the evidence.
+
+## Independent work
+
+### QuantSieve
+
+[![QuantSieve — pretty charts are not proof](https://raw.githubusercontent.com/RRXXZZYY/QuantSieve/main/docs/assets/social-preview.png)](https://github.com/RRXXZZYY/QuantSieve)
+
+**Pretty charts are not proof.** [QuantSieve](https://github.com/RRXXZZYY/QuantSieve) is a self-hosted quantitative research workspace that keeps results traceable to data, timing, assumptions, costs, and execution semantics—and fails closed when evidence is insufficient.
+
+[Explore the repository](https://github.com/RRXXZZYY/QuantSieve) · [Watch the 55-second product tour](https://github.com/RRXXZZYY/QuantSieve/releases/tag/v0.1.1)
+
+### Focused developer tools
 
 | Project | What it does | Engineering focus |
 | --- | --- | --- |
