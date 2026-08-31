@@ -18,6 +18,17 @@ I like software that explains itself: deterministic cores, inspectable evidence,
 
 [Explore the repository](https://github.com/RRXXZZYY/QuantSieve) · [Watch the 55-second product tour](https://github.com/RRXXZZYY/QuantSieve/releases/tag/v0.1.1)
 
+## Merged upstream contributions
+
+Verifiable fixes accepted by maintainers of public upstream projects. Each entry links directly to the merge record.
+
+| Upstream project | Contribution | Result |
+| --- | --- | --- |
+| **[The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)** | [#2922](https://github.com/The-PR-Agent/pr-agent/pull/2922) made GitLab webhook handling robust to explicit `null` labels and preserved later ignore-rule evaluation. | Merged after focused regression coverage and CI |
+| **[The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)** | [#2939](https://github.com/The-PR-Agent/pr-agent/pull/2939) normalized inverted line ranges consistently across GitHub, GitLab, and Gitea link builders. | Merged with provider regression coverage |
+
+[View all authored pull requests](https://github.com/search?q=is%3Apr+author%3ARRXXZZYY&type=pullrequests)
+
 ## Selected open-source projects
 
 | Project | What it does | Engineering focus |
