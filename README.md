@@ -18,6 +18,7 @@ Verifiable fixes accepted by maintainers of public upstream projects. Each entry
 
 | Upstream project | Contribution | Result |
 | --- | --- | --- |
+| **[THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC)** | [#1296](https://github.com/THU-MAIC/OpenMAIC/pull/1296) enforced LF checkouts for text files on Windows without renormalizing existing source blobs. | Merged after fresh-checkout, formatting, lint, type-check, and CI validation |
 | **[The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)** | [#2922](https://github.com/The-PR-Agent/pr-agent/pull/2922) made GitLab webhook handling robust to explicit `null` labels and preserved later ignore-rule evaluation. | Merged after focused regression coverage and CI |
 | **[The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)** | [#2939](https://github.com/The-PR-Agent/pr-agent/pull/2939) normalized inverted line ranges consistently across GitHub, GitLab, and Gitea link builders. | Merged with provider regression coverage |
 
