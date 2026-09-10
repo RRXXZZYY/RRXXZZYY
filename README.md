@@ -10,7 +10,7 @@
 
 I work at the boundary between AI infrastructure, backend and data systems, developer experience, and quantitative engineering. I care about the parts that make software trustworthy in practice: deterministic behavior, explicit contracts, inspectable evidence, useful failure messages, and honest performance boundaries.
 
-My open-source work focuses on the infrastructure around AI agents—not another chat wrapper. I prefer narrow changes with a reproducible failure, focused regression coverage, and a result that another engineer can independently verify.
+My open-source work focuses on the infrastructure around AI agents—not another chat wrapper. I prefer narrow changes with a reproducible failure, focused regression coverage, and a result that another engineer can independently verify. I treat upstream work as evidence, not volume: a contribution belongs on this page only when its scope, verification, and review state are clear.
 
 ## Merged upstream contributions
 
@@ -23,6 +23,19 @@ Verifiable fixes accepted by maintainers of public upstream projects. Each entry
 | **[The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)** | [#2939](https://github.com/The-PR-Agent/pr-agent/pull/2939) normalized inverted line ranges consistently across GitHub, GitLab, and Gitea link builders. | Merged with provider regression coverage |
 
 [View all authored pull requests](https://github.com/search?q=is%3Apr+author%3ARRXXZZYY&type=pullrequests)
+
+## Active upstream review
+
+Focused pull requests currently under maintainer review. These entries are work in progress and are **not** counted as merged contributions until accepted.
+
+| Upstream project | Focus | Status |
+| --- | --- | --- |
+| **[wezterm/wezterm](https://github.com/wezterm/wezterm)** | [#8124](https://github.com/wezterm/wezterm/pull/8124) adds the missing `ClearLine` termwiz change. | Open review |
+| **[psf/black](https://github.com/psf/black)** | [#5382](https://github.com/psf/black/pull/5382) honors negations in nested `.gitignore` files. | Open review |
+| **[valyala/fasthttp](https://github.com/valyala/fasthttp)** | [#2377](https://github.com/valyala/fasthttp/pull/2377) adds context-aware request execution while preserving the fast path. | Open review |
+| **[mikefarah/yq](https://github.com/mikefarah/yq)** | [#2850](https://github.com/mikefarah/yq/pull/2850) preserves explicit assignments in read-only expressions. | Open review |
+| **[atuinsh/atuin](https://github.com/atuinsh/atuin)** | [#4044](https://github.com/atuinsh/atuin/pull/4044) writes absolute executable paths to agent configs. | Open review |
+| **[oxc-project/oxc](https://github.com/oxc-project/oxc)** | [#26235](https://github.com/oxc-project/oxc/pull/26235) adds the `unicorn/no-subtraction-comparison` lint rule. | Open review |
 
 ## Engineering focus
 
