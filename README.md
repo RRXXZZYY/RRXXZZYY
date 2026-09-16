@@ -19,6 +19,7 @@ Verifiable fixes accepted by maintainers of public upstream projects. Each entry
 | Upstream project | Contribution | Result |
 | --- | --- | --- |
 | **[THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC)** | [#1296](https://github.com/THU-MAIC/OpenMAIC/pull/1296) enforced LF checkouts for text files on Windows without renormalizing existing source blobs. | Merged after fresh-checkout, formatting, lint, type-check, and CI validation |
+| **[wezterm/wezterm](https://github.com/wezterm/wezterm)** | [#8124](https://github.com/wezterm/wezterm/pull/8124) adds the missing `ClearLine` termwiz change. | Merged with upstream CI; unrelated Windows inline-snapshot failures remained outside this change |
 | **[super-linter/super-linter](https://github.com/super-linter/super-linter)** | [#8094](https://github.com/super-linter/super-linter/pull/8094) prevented codespell from scanning root package-lock files that are outside the intended source scope. | Merged with CI validation |
 | **[Nano-Collective/nanocoder](https://github.com/Nano-Collective/nanocoder)** | [#1098](https://github.com/Nano-Collective/nanocoder/pull/1098) restored usage footers when reopening chats. | Merged with automated checks |
 | **[The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)** | [#2922](https://github.com/The-PR-Agent/pr-agent/pull/2922) made GitLab webhook handling robust to explicit `null` labels and preserved later ignore-rule evaluation. | Merged after focused regression coverage and CI |
@@ -32,7 +33,6 @@ Focused pull requests currently under maintainer review. These entries are work 
 
 | Upstream project | Focus | Status |
 | --- | --- | --- |
-| **[wezterm/wezterm](https://github.com/wezterm/wezterm)** | [#8124](https://github.com/wezterm/wezterm/pull/8124) adds the missing `ClearLine` termwiz change. | Open review |
 | **[psf/black](https://github.com/psf/black)** | [#5382](https://github.com/psf/black/pull/5382) honors negations in nested `.gitignore` files. | Open review |
 | **[valyala/fasthttp](https://github.com/valyala/fasthttp)** | [#2377](https://github.com/valyala/fasthttp/pull/2377) adds context-aware request execution while preserving the fast path. | Open review |
 | **[mikefarah/yq](https://github.com/mikefarah/yq)** | [#2850](https://github.com/mikefarah/yq/pull/2850) preserves explicit assignments in read-only expressions. | Open review |
